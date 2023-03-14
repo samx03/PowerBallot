@@ -1,14 +1,6 @@
-# Voting System using Block-Chain
+# PowerBallot: A Blockchain-based Voting Platform
 
-A user can cast his vote by visiting this web platform. For web server scripting we have used python based web framework **`Django`**.
-
-
-
-## How to run
-
-1. Install all the (pip) dependency packages (main packages are listed in `requirements.txt`).
-2. Locate `EMAIL_ADDRESS` and `EMAIL_PASSWORD` variable in `Election/settings.py` file and assign your valid credentials.
-
+PowerBallot is a voting platform that uses blockchain technology to be transparent and safe. It guarantees the confidentiality and integrity of the voting process and makes it simple for voters to cast their ballots from anywhere in the world. PowerBallot makes elections more trustworthy and transparent, making it the perfect answer for authorities, organisations, and companies looking for a safe and dependable voting system.
 
 ## To send emails follow these steps
 
@@ -22,7 +14,7 @@ A user can cast his vote by visiting this web platform. For web server scripting
 - Paste the password in your settings.py
 
 
-​		For this make sure `send_otp()` method in `views.py` file looks like this:
+​		To send otp make sure `send_otp()` method in `views.py` file looks like this:
 
 ```python
 ...
@@ -40,10 +32,13 @@ send_email_private_key(request.session['email-id'], private_key)
 ...
 ```
 
-5. Locate `manage.py` file and run `python manage.py runserver` in the same directory.
 
-6. Locate the URL provided in the terminal and access that. by default it is [http://127.0.0.1:8000](http://127.0.0.1:8000).
+## How to run
 
-
-
-  
+- Install all the (pip) dependency packages.
+```
+pip install -r requirements.txt
+```
+- Locate `EMAIL_ADDRESS` and `EMAIL_PASSWORD` variable in `Election/settings.py` file and assign your valid credentials.
+- Locate `manage.py` file and run `python manage.py runserver` in the same directory.
+- Locate the URL provided in the terminal and access that. by default it is [http://127.0.0.1:8000](http://127.0.0.1:8000).
