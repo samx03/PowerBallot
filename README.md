@@ -39,6 +39,6 @@ send_email_private_key(request.session['email-id'], private_key)
 ```
 pip install -r requirements.txt
 ```
-- Locate `EMAIL_ADDRESS` and `EMAIL_PASSWORD` variable in `Election/settings.py` file and assign your valid credentials.
+- Locate `EMAIL_ADDRESS` and `EMAIL_PASSWORD` variable in `Election/settings.py` file and assign your own valid credentials.
 - Locate `manage.py` file and run `python manage.py runserver` in the same directory.
 - Locate the URL provided in the terminal and access that. by default it is [http://127.0.0.1:8000](http://127.0.0.1:8000).

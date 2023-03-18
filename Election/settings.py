@@ -120,10 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# EMAIL_ADDRESS = 'sameerbakshi34@gmail.com'
 EMAIL_ADDRESS = ''
 EMAIL_PASSWORD = ''
-# EMAIL_PASSWORD = 'xzuhkmfegkburkkm'
 TRANSACTIONS_PER_BLOCK = 1
 
 # PUZZLE
