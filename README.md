@@ -1,6 +1,6 @@
 # PowerBallot: A Blockchain-based Voting Platform
 
-<img style="margin: auto; width: 50%;" src="https://media0.giphy.com/media/fveKCnZRN7aOrtWNfj/giphy.gif?cid=ecf05e47lobogvuilxawcc5b24cxk22wbdu7exd9bztitehg&rid=giphy.gif&ct=g" alt="Voting">
+<img style="margin: auto; display:block ; width: 50%;" src="https://media0.giphy.com/media/fveKCnZRN7aOrtWNfj/giphy.gif?cid=ecf05e47lobogvuilxawcc5b24cxk22wbdu7exd9bztitehg&rid=giphy.gif&ct=g" alt="Voting">
 
 PowerBallot is a voting platform that uses blockchain technology to be transparent and safe. It guarantees the confidentiality and integrity of the voting process and makes it simple for voters to cast their ballots from anywhere in the world. PowerBallot makes elections more trustworthy and transparent, making it the perfect answer for authorities, organisations, and companies looking for a safe and dependable voting system.
 
